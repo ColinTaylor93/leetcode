@@ -30,4 +30,7 @@ class Solution(object):
         # get the total for each row in the tree, keep in array
         row_totals = [sum(sublist) for sublist in tree_as_array]
         # sort the array and return the largets k value
-        return sorted(row_totals, reverse=True)[k - 1]
+        try:
+            return sorted(row_totals, reverse=True)[k - 1]
+        except IndexError:
+            return -1
