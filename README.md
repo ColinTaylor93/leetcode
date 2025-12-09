@@ -3,7 +3,7 @@
 This repository contains my personal solutions to LeetCode problems. Solutions are organized by topic for easier navigation and reference.
 
 - **Profile:** [ctaylor93 on LeetCode](https://leetcode.com/u/ctaylor93)
-- **Top Languages:** Python, JavaScript, C#
+- **Top Languages:** Python, JavaScript, C#, & elixir
 
 ## Organization
 
